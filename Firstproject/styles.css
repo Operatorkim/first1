@@ -1,0 +1,59 @@
+*{
+	box-sizing: border-box;
+}
+h1 {
+	text-align: center;
+}
+.signUp {
+	background-color:#ff5e57 ;
+	/*sunset orange*/
+	padding: 25px;
+	border-radius: 6px;
+}
+input[type="text"],
+input[type="email"],
+input[type="password"], select{
+	width: 100%;
+	padding: 10px 10px;
+	border-radius: 6px;
+	border: 1px solid black;
+	margin: 10px 0;
+}
+[type="submit"]{
+	width: 100%;
+	padding: 10px 10px;
+	background-color:#17c0eb;
+	/*spiro disco ball*/
+	color: white;
+	border-radius: 60px;
+	border: none;
+	margin: 10px 0;
+}
+[type="submit"]:hover {
+	opacity: 0.2;
+	color: green;
+}
+.toplist {
+		list-style-type: none;
+		background-color: #17c0eb;
+		overflow: hidden;
+			}
+li{
+	/*display: inline;*/
+	float: left;
+}
+.toplinks{
+	text-decoration: none;
+	color: white;
+	padding: 10px 15px;
+	font-size: 20px;
+
+}
+.active {
+	background-color: white;
+	color: red;
+}
+.toplinks:hover {
+	background-color: #A3CB38;
+	/*dutch pallete android green*/
+}
